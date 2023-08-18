@@ -7,6 +7,7 @@
     <meta name="author" content="Kirill Gorbunov">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirill Gorbunov</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>Kirill Gorbunov</h1>
@@ -15,10 +16,10 @@
         tags that you've already seen. On this page you can read some information about me, my studying, hobbies
         etc.
     </p>
-    <section>
+    <section class='section__brief'>
         <h2>Brief information</h2>
         <p>
-            My birthday is October 13th. I was born in 2003 in Rostov-on-Don so now I am 19 years old. Now I am living
+            My birthday is <time datetime="2003-10-13">October 13th</time>. I was born in 2003 in Rostov-on-Don, so now I am 19 years old. Now I am living
             in the Taganrog, where I also study.
         </p>
     </section>
@@ -26,10 +27,10 @@
         <h2>My studying</h2>
         <p>
             First place where I've studied was initial training school where I went in the age of 5. Then I went to school,
-            finished it and went to the university. For now, I am also interning in the IT-company "Lachestry".
+            finished it and went to the university. For now, I am also interning in the IT-company <span class='Lachestry'>"Lachestry"</span>.
         </p>
         <br>
-        So my <strong>"studying"</strong> part of the life i can split into this parts:
+        So my <strong>"studying"</strong> part of the life I can split into this parts:
         <ol type="I">
             <li>Pre-intermediate school</li>
             <li>School</li>
@@ -40,7 +41,7 @@
             In the table below I will mention some information that should be specified but is not that big to give her
             a separate paragraph
         </p>
-        <table border="1">
+        <table>
             <thead>
                 <tr>
                     <td>Studying place</td>
@@ -72,19 +73,19 @@
             </tbody>
         </table>
     </section>
-    <section>
+    <section class='section__hobbies'>
         <h2>Hobbies</h2>
         <p>
             So now is the time to tell about my hobbies. I'll tell you a bit about them below but at first I want to
             name them.
         </p>
-        <ul>
+        <ul class=''>
             <li>Programming</li>
             <li>Reading</li>
             <li>Listening to music</li>
         </ul>
         <p>
-            <strong>Programming</strong> is one of my hobbies but it's also a sphere where I am studying and want to work.
+            <strong>Programming</strong> is one of my hobbies, but it's also a sphere where I am studying and want to work.
             I really like it, the king of programming that I like is Back-end web-development. Of course there are plenty
             of others great directions in the programming but web development is my favourite one. It's the sphere in
             which I want to work.
@@ -96,7 +97,7 @@
         </p>
         <p>
             <strong>Listening to music></strong>Last thing that I've mentioned was listening to <strong>music</strong>.
-            It's not really a hobby but I really
+            It's not really a hobby, but I really
             like to do it.
         </p>
     </section>
@@ -107,7 +108,10 @@
             can text me in
             <a href="https://t.me/n0where_man">Telegram</a>
         </p>
-        <img width="600" height="400" src="img/cat.jpg" alt="just nice picture of the cat">
+        <div id="cats">
+            <img class='img__cat' src="img/kot.jpg" alr="Cat with pistol">
+            <img class='img__cat' src="img/cat.jpg" alt="British cat">
+        </div>
     </section>
 </body>
 </html>
