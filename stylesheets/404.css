@@ -1,0 +1,46 @@
+body {
+    margin: unset;
+}
+
+.notification {
+    margin: unset;
+    padding-top: 3rem;
+
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.colour-block {
+    height: 27rem;
+    background-color: #1BA86B;
+
+    z-index: 1;
+}
+
+.round-block {
+    width: 25em;
+    height: 25em;
+    margin: 6em auto auto;
+
+    border: 10px solid lightgrey;
+    border-radius: 50%;
+
+    z-index: 2;
+}
+
+.round-block__sign {
+    width: 25em;
+    height: 25em;
+    margin:auto;
+    border-radius: 50%;
+}
+
+.message {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+
+    margin-top: 6em;
+}
